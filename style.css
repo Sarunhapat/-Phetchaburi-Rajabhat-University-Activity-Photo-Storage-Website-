@@ -1,0 +1,174 @@
+body {
+    font-family: 'Noto Sans Thai', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+.login-box input, .login-box button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.error { color: red; }
+body {
+    margin: 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+    background-color: #003366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    border-top: 5px solid #ffc107;
+}
+
+.login-box .header .logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.login-box h2 {
+    margin-bottom: 5px;
+    color: #003366;
+}
+
+.login-box p {
+    margin-top: 0;
+    color: #666;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #002244;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+/* ส่วนกลางจอ */
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    min-height: 100vh;
+    background-color: #003366;
+    box-sizing: border-box;
+}
+
+/* กล่องเนื้อหาขนาดพอดีจอ */
+.upload-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+.upload-box h2, .upload-box h3 {
+    color: #003366;
+    margin-top: 0;
+}
+
+.upload-box ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.upload-box img {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+
+.upload-box label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.upload-box input[type="text"],
+.upload-box input[type="date"],
+.upload-box input[type="file"],
+.upload-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.upload-box button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.upload-box button:hover {
+    background-color: #002244;
+}
+
